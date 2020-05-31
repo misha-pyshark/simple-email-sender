@@ -21,4 +21,4 @@ if __name__=='__main__':
     recipient = input("Please enter recepient's email: ")
     s = input('Please enter the subject of the email: ')
     b = input('Please enter the content of the email: ')
-    send_email(s,b, myemail, mypassword, recipient)
+    send_email(s, b, myemail, mypassword, recipient)
